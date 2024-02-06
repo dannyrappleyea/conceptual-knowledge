@@ -8,7 +8,7 @@ is:
   - "[[note]]"
 of:
   - "[[beer]]"
-  - "[[type|style]]"
+  - "[[category|category]]"
 urls:
   - https://en.wikipedia.org/wiki/Beer_style
 ---
