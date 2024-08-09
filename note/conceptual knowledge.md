@@ -1,12 +1,12 @@
 ---
-is:
+is_a:
   - "[[note]]"
-of:
+topics:
   - "[[concept]]"
 ---
 # Introduction
 
-Knowledge is a complex thing, built on millions of individual concepts, most of which mean different things to different people. Conceptual knowledge is a set of building blocks to stitch those concepts together into a cohesive whole. It starts with a fundamental [[concept]], then uses [[relationship]](s) to define other concepts and how they interrelate. The result is a tree-based knowledge structure that models each person's individual way of thinking, while allowing comparisons by both humans and computers.
+Knowledge is a complex thing, built on millions of individual concepts, most of which mean different things to different people. Conceptual knowledge is a set of building blocks to stitch those concepts together into a cohesive whole. It starts with a fundamental [[concept]], then uses relationship(s) to define other concepts and how they interrelate. The result is a tree-based knowledge structure that models each person's individual way of thinking, while allowing comparisons by both humans and computers.
 
 **Concepts + relationships = knowledge**
 
@@ -211,11 +211,11 @@ Here's an example from our book.
 
 **Harry Potter and the Philosopher’s Stone**
 ```
-is:: [[book]]
-type:: [[fantasy]]
-author:: [[J.K. Rowling]]
-equals:: [Harry Potter and the Philosopher’s Stone | Goodreads](https://www.goodreads.com/book/show/72193.Harry_Potter_and_the_Philosopher_s_Stone)
-in:: [[my favorite books]]
+	is:: [[book]]
+	type:: [[fantasy]]
+	author:: [[J.K. Rowling]]
+	equals:: [Harry Potter and the Philosopher’s Stone | Goodreads](https://www.goodreads.com/book/show/72193.Harry_Potter_and_the_Philosopher_s_Stone)
+	in:: [[my favorite books]]
 ```
 
 That small amount of information, plus your notes, is everything you need to summarize your knowledge of the book. It lets you find related things easily, and expand later if desired.
@@ -224,8 +224,8 @@ Concepts are even smaller, since they typically only have relationships without 
 
 **book**
 ```
-is:: [[concept]]
-equals:: [book | Wikipedia](https://en.wikipedia.org/wiki/Book
+	is:: [[concept]]
+	equals:: [book | Wikipedia](https://en.wikipedia.org/wiki/Book
 ```
 
 ## Non-concept fields
